@@ -2,7 +2,16 @@ import React from "react";
 
 class Form extends React.Component {
     render() {
-        return <div>Компонент з формою</div>;
+        return (
+            <form onSubmit={this.props.weatherMetod}>
+                <input
+                    type="text"
+                    name="city"
+                    placeholder="Введіть назву міста"
+                />
+                <button>Запит</button>
+            </form>
+        );
     }
 }
 
