@@ -28,7 +28,15 @@ class App extends React.Component {
                 city: data.name,
                 country: data.sys.country,
                 pressure: data.main.pressure,
-                error: "",
+                error: undefined,
+            });
+        } else {
+            this.setState({
+                temp: undefined,
+                city: undefined,
+                country: undefined,
+                pressure: undefined,
+                error: "Не коректно введена назва міста",
             });
         }
     };

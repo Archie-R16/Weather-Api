@@ -1,14 +1,18 @@
 import React from "react";
 
-class Info extends React.Component {
-    render() {
-        return (
-            <div>
-                <h2>Погодниї застосунок</h2>
-                <p>Дізнатися погоду у вашему регіоні</p>
-            </div>
-        );
-    }
-}
+const Info = () => (
+    <div>
+        <h2>Догодниї додаток</h2>
+        <p>Дізнайтесь погоду у вашему місті</p>
+    </div>
+);
+
+// class Info extends React.Component {
+//     render() {
+//         return (
+
+//         );
+//     }
+// }
 
 export default Info;
