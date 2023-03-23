@@ -7,7 +7,7 @@ const Weather = (props) => (
                 <p>
                     Місце розтошування: {props.city},{props.country}
                 </p>
-                <p>Температура у °с: {props.temp}</p>
+                <p>Температура у: {props.temp} °c</p>
                 <p>Тиск: {props.pressure}</p>
             </>
         )}
