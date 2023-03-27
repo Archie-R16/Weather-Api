@@ -60,7 +60,7 @@ body {
   }
   
   input::-moz-placeholder {
-    color: #103a65;
+    color: #f10909;
   }
   
   button {
@@ -105,6 +105,6 @@ body {
   }
   
   .error {
-    color: #041f3c;
+    color: #f70707;
     font-weight: bold;
   }
