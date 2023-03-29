@@ -9,7 +9,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url(img/pexels-greg-2418664.jpg) ;
+  background: url("img/pexels-greg-2418664.jpg") center no-repeat ;
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2db0e0', endColorstr='#6028a8', GradientType=1 );
 }
 .main {
@@ -36,9 +36,6 @@ body {
     height: 55vh;
     padding-top: 100px;
     padding-left: 50px;
-    border-top: 2px solid #113a65;
-    border-bottom: 2px solid #113a65;
-    border-right: 2px solid #113a65;
   }
   
   input[type="text"] {
